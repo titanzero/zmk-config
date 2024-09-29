@@ -80,15 +80,6 @@
                                 &kp LEFT_ALT  &kp LEFT_META  &mo 2  &kp SPACE  &double_tap_sh_caps  &kp ESC  &kp ENTER  &mo 1  &kp BACKSPACE  &kp RIGHT_ALT
             >;
         };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
     };
 
     conditional_layers {
