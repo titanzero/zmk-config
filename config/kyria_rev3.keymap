@@ -71,6 +71,24 @@
                                     &trans        &trans  &trans         &trans             &bt BT_CLR  &bt BT_CLR_ALL  &trans           &trans  &trans   &trans
             >;
         };
+
+        workman {
+            bindings = <
+&kp TILDE         &kp Q  &kp D  &kp R         &kp W          &kp B                                                      &kp J  &kp F          &kp U          &kp P    &kp SEMI  &kp BSLH
+&kp TAB           &kp A  &kp S  &kp H         &kp T          &kp G                                                      &kp Y  &kp N          &kp E          &kp O    &kp I     &kp SQT
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp M         &kp C          &kp V  &kp LC(C)  &kp LC(V)            &trans   &trans     &kp K  &kp L          &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+                                &kp LEFT_ALT  &kp LEFT_META  &mo 2  &kp SPACE  &double_tap_sh_caps  &kp ESC  &kp ENTER  &mo 1  &kp BACKSPACE  &kp RIGHT_ALT
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 
     conditional_layers {
