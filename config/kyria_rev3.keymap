@@ -34,7 +34,7 @@
             bindings = <
 &kp TILDE  &kp Q  &kp W  &kp E         &kp R      &kp T                                                         &kp Y  &kp U     &kp I          &kp O    &kp P     &kp BSLH
 &kp TAB    &kp A  &kp S  &kp D         &kp F      &kp G                                                         &kp H  &kp J     &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C         &kp V      &kp B  &kp LC(C)  &kp LC(V)            &none       &none      &kp N  &kp M     &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+&kp LCTRL  &kp Z  &kp X  &kp C         &kp V      &kp B  &kp LC(C)  &kp LC(V)            &to 4       &none      &kp N  &kp M     &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
                          &kp LEFT_ALT  &kp LMETA  &mo 2  &kp SPACE  &double_tap_sh_caps  &kp ESCAPE  &kp ENTER  &mo 1  &kp BSPC  &kp RIGHT_ALT
             >;
         };
@@ -76,7 +76,7 @@
             bindings = <
 &kp TILDE         &kp Q  &kp D  &kp R         &kp W          &kp B                                                      &kp J  &kp F          &kp U          &kp P    &kp SEMI  &kp BSLH
 &kp TAB           &kp A  &kp S  &kp H         &kp T          &kp G                                                      &kp Y  &kp N          &kp E          &kp O    &kp I     &kp SQT
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp M         &kp C          &kp V  &kp LC(C)  &kp LC(V)            &trans   &trans     &kp K  &kp L          &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp M         &kp C          &kp V  &kp LC(C)  &kp LC(V)            &to 0    &trans     &kp K  &kp L          &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
                                 &kp LEFT_ALT  &kp LEFT_META  &mo 2  &kp SPACE  &double_tap_sh_caps  &kp ESC  &kp ENTER  &mo 1  &kp BACKSPACE  &kp RIGHT_ALT
             >;
         };
